@@ -47,7 +47,7 @@ const projectData = [
 
   {
     name:'netflix clone',
-    description:'this is a full clone of netflix i',
+    description:'this is a full clone of netflix I build the core fearurs of the app is calling api to featch a movies information and display it like a posters and whe you click in any posters that will take you to anther route to display more information a bout the movie and will display posters for similar movies and also will show trailers about the movei. ',
     tech_uses:['css module','tmdb api', 'react', 'react-youtube', 'movie-trailer'],
     lg_image:'https://via.placeholder.com/1026x300',
     md_image:'https://via.placeholder.com/474x240/',
@@ -69,7 +69,7 @@ projectData.map(project => {
       <img class="sm-img" src=${sm_image} alt=${name} width="240" height="170">
     </div>
     <div class="project_info">
-      <h3>p${name}</h3>
+      <h3>${name}</h3>
       <button>
         <span>
         <a href =${live} target=_blank> live </a>
